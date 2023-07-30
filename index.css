@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    background-color: #1f2937;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.navImg{
+    border-radius: 6px;
+    width: 200px;
+    opacity: 0.7;
+}
+.navbar ul{
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+}
+.navigation{
+ text-decoration: none;
+ color: #e5e7eb;
+ font-size: 18px;
+}
+.gameIntro{
+    display: flex;
+    max-width: 1044px;
+    color: #fff;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 20px 0;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+}
+.hero p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero button{
+    width: 80px;
+    border: none;
+    height: 22px;
+    background:#3882f6;
+    color: #e5e7eb;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.introImg{
+    width: 800px;
+    height: 200px;
+}
+main h2{
+    text-align: center;
+    font-size:36px;
+    font-weight: bolder;
+    color:#1f2937;
+    margin-top: 20px;
+}
+.infoContainer{
+    display: flex;
+    max-width: 1040px;
+    gap: 12px;
+    margin: 20px auto;
+}
+.mainInfo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    margin: 0 auto;
+}
+.mainInfo p{
+    font-size: 12px;
+    text-align:center;
+    margin-top: 6px;
+}
+.mainInfo img{
+    border: 2px solid #3882f6;
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+}
+.quote{
+    background: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 50px;
+}
+.solidQuote{
+    margin: 0 auto;
+    max-width: 500px;
+}
+.author{
+    text-align: end;
+    font-size: 18px;
+    color: #000;
+}
+.calltoaction{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.petition{
+    background-color:#3882f6;
+    padding: 30px 50px;
+    border-radius: 12px;
+    color:#f9faf8;
+}
+.legend{
+    font-weight:bold;
+    font-size: 16px;
+}
+.petitionSign{
+    font-size:12px;
+    font-weight: lighter;
+}
+.legendFlex{
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    gap:50px;
+}
+.petitionBtn{
+    margin-bottom: 20px;
+    background:none;
+    border:1px solid #e5e7eb;
+    color:#e5e7eb;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    padding: 20px;
+    font-size: 12px;
+}
